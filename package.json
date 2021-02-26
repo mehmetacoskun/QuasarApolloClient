@@ -1,0 +1,41 @@
+{
+  "name": "quasar-apollo-todo-app-without-vuex",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "add.your.email@here.com",
+  "private": true,
+  "scripts": {
+    "start": "quasar dev",
+    "post-update": "yarn upgrade --latest",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.8.1",
+    "nanoid": "^2.1.11",
+    "quasar": "1.11.3"
+  },
+  "devDependencies": {
+    "@quasar/quasar-app-extension-apollo": "^1.0.0-beta.1",
+    "@quasar/app": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "engines": {
+    "node": ">= 10.17.0",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.19.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "keywords": []
+}
